@@ -2,6 +2,8 @@
 
 Junior SOC analyst agent built with Streamlit + Groq (Llama 3.3 70B) + LangChain.
 
+Link <> https://socgpt-local.streamlit.app/
+
 ### Features
 - Upload logs/files/emails → magic file type detection (from my P1 project)
 - Content preview + IOC extraction
