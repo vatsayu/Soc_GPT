@@ -1,0 +1,20 @@
+# Core web app & UI
+streamlit>=1.42.0
+
+# LLM & LangChain integration
+langchain>=0.3.0
+langchain-groq>=0.2.0
+langchain-core>=0.3.0
+langchain-classic>=0.0.1          # for ConversationBufferMemory & LLMChain (legacy compatibility)
+
+# Environment variables & secrets
+python-dotenv>=1.0.0
+
+# Optional / nice-to-have (uncomment if you add these features later)
+# pydantic>=2.0                     # usually comes with langchain
+# reportlab>=4.0                    # for PDF report export
+# vt-py>=0.1.0                      # VirusTotal API (free tier hash lookup)
+# pyyaml>=6.0                       # if you add Sigma rule generation
+
+# Make sure you're in the P5_SOC_GPT folder and venv is activated
+pip install -r requirements.txt

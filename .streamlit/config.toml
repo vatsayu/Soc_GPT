@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#00ff9f"           # bright hacker green
+backgroundColor = "#0e1117"        # dark gray-black
+secondaryBackgroundColor = "#161b22"
+textColor = "#c9d1d9"
+font = "sans serif"
+
+[layout]
+wideMode = true
+
+[browser]
+gatherUsageStats = false
